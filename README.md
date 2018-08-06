@@ -4,7 +4,7 @@
 - [Git](https://git-scm.com/book/en/v2)
 - [演算法與資料結構](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [C++ reference] (https://en.cppreference.com/w/)
+- [C++ reference](https://en.cppreference.com/w/)
 ## Easy Collection - Top Interview Questions
 ### Array
 #### 1. Remove Duplicates from Sorted Array
