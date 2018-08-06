@@ -1,6 +1,6 @@
 # leetcode
-[文件編輯: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-[GitHub Guide](https://guides.github.com/)
+- [文件編輯: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [GitHub Guide](https://guides.github.com/)
 ## Easy Collection - Top Interview Questions
 ### Array
 #### 1. Remove Duplicates from Sorted Array
