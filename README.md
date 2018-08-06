@@ -7,7 +7,7 @@
 - [C++ reference](https://en.cppreference.com/w/)
 ## Easy Collection - Top Interview Questions
 ### Array
-#### 1. [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
+>1. [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
 - [In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm):
 意思是任何得改動只能限於替換或換出你得input sequence. EX: deleting or swapping elements in the vecotor, but no adding or using an extra vector to help adjusting.
 - O(1) space:
