@@ -15,7 +15,7 @@
 > EX: deleting or swapping elements in the vecotor, but no adding or using an extra vector to help adjusting.<br>
 > 一個排序演算法, 若只需要用到 O(1) 的額外空間, 則稱它具有 in-place 特性。 例如 insertion sort, selection sort 都是 in-place。 
 >
-> - O(1) space:
+> - O(1) space:<br>
 > in this question, just keep in mind it means it should only have one pointer, which in this case it points to the beginning  of the vector.
 >
 > - [Big-O Cheat Sheet](http://www.bigocheatsheet.com/)
