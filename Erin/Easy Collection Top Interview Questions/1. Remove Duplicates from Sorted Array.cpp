@@ -8,7 +8,7 @@ Do not allocate extra space for another array, you must do this by modifying the
 - In-place algo.
 - O(1) space
 
-Creation Date: 07/08/2018
+creation Date: 07/08/2018
 copyright(c) 2018 Ya-Han Chang
 */
 
