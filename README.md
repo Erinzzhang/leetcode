@@ -1,4 +1,5 @@
 # leetcode
+- [如何正确高效地使用LeetCode？](https://www.zhihu.com/question/26580300)
 - [文件編輯: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Markdown文件](https://markdown.tw/)
 - [GitHub Guide](https://guides.github.com/)
