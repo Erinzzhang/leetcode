@@ -16,7 +16,7 @@
 > 一個排序演算法, 若只需要用到 O(1) 的額外空間, 則稱它具有 in-place 特性。 例如 insertion sort, selection sort 都是 in-place。 
 >
 > - O(1) space:
-> in this question, just keep in mind it means it should only have one pointer, which in this case it points to the beginning > of the vector.
+> in this question, just keep in mind it means it should only have one pointer, which in this case it points to the beginning  of the vector.
 >
 > - [Big-O Cheat Sheet](http://www.bigocheatsheet.com/)
 > - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
