@@ -1,8 +1,15 @@
 /* 
 Array
-Date: 20180807
+File:  Remove Duplicates from Sorted Array.cpp
+
+Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
 - In-place algo.
 - O(1) space
+
+Creation Date: 07/08/2018
+copyright(c) 2018 Ya-Han Chang
 */
 
 class Solution {
