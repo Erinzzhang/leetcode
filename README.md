@@ -5,6 +5,7 @@
 - [演算法與資料結構](http://alrightchiu.github.io/SecondRound/mu-lu-yan-suan-fa-yu-zi-liao-jie-gou.html)
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - [C++ reference](https://en.cppreference.com/w/)
+- [物件導向程式設計 (OOP) 基礎觀念](http://glj8989332.blogspot.com/2017/11/design-pattern-oop.html)
 ## Easy Collection - Top Interview Questions
 ### Array
 #### 1. [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
