@@ -1,3 +1,10 @@
+/* 
+Array
+Date: 20180807
+- In-place algo.
+- O(1) space
+*/
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
