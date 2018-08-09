@@ -25,5 +25,5 @@
 
 #### 2. [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/)
 > - Design an algorithm to find the maximum profit. 
-> - Trand Chart
+> - Trend Chart
 
