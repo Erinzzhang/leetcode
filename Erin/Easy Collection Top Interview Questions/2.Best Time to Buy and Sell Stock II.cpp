@@ -22,17 +22,18 @@ public:
         int buy = 0;
         int sell = 0;
         int profit = 0;
-
-        for (int i = 0; i < prices.size();i++)
+        if (prices.size() > 0)
         {
-            if (i + 1 < prices.size() && prices[i] < prices[i+1])
+            for (int i = 0; i < prices.size();i++)
             {
-                buy = prices[i];
-                sell = prices[i+1];
-                profit = sell - buy + profit;
-            }
-        } 
-
+                if (i + 1 < prices.size() && prices[i] < prices[i+1])
+                {
+                    buy = prices[i];
+                    sell = prices[i+1];
+                   profit = sell - buy + profit;
+                }
+            } 
+        }
         return profit;
     }
 };
