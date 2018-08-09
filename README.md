@@ -23,3 +23,7 @@
 > - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 > - [C/C++ - Vector (STL) 用法與心得完全攻略](http://mropengate.blogspot.com/2015/07/cc-vector-stl.html)
 
+#### 2. [Best Time to Buy and Sell Stock II](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/564/)
+> - Design an algorithm to find the maximum profit. 
+> - Trand Chart
+
