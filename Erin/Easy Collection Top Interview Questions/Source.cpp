@@ -1,23 +1,18 @@
-#include<iostream>
-#define N 20
-#define M 10
-#define Factor 3
-using namespace std;
 
 class Stack{
 public:
-	void init(){ nums = 0; }; //ªì©l¤Æ¦¨­û¨ç¦¡
-	void push(int data); //«Å§i¦s¤J¤@­Ó¾ã¼Æªº¨ç¦¡
-	int pop(); //«Å§i¨ú¥X¤@­Ó¾ã¼Æªº¨ç¦¡
-	int odd_array[N]; //°ïÅ|ªº°}¦C
+	void init(){ nums = 0; }; //åˆå§‹åŒ–æˆå“¡å‡½å¼
+	void push(int data); //å®£å‘Šå­˜å…¥ä¸€å€‹æ•´æ•¸çš„å‡½å¼
+	int pop(); //å®£å‘Šå–å‡ºä¸€å€‹æ•´æ•¸çš„å‡½å¼
+	int odd_array[N]; //å †ç–Šçš„é™£åˆ—
 private:
-	int nums; //¥Î¨Ó°O¿ı°ïÅ|¤¤ªº¸ê®Æ¼Æ
+	int nums; //ç”¨ä¾†è¨˜éŒ„å †ç–Šä¸­çš„è³‡æ–™æ•¸
 };
-void Stack::push(int data) //¦bStack¥~©w¸qpush¨ç¼Æ
+void Stack::push(int data) //åœ¨Stackå¤–å®šç¾©pushå‡½æ•¸
 {
 	odd_array[nums++] = data;
 }
-int Stack::pop() //¦bStack¥~©w¸qpop¨ç¼Æ
+int Stack::pop() //åœ¨Stackå¤–å®šç¾©popå‡½æ•¸
 {
 	if (nums != 0){
 		return odd_array[--nums];
@@ -25,11 +20,11 @@ int Stack::pop() //¦bStack¥~©w¸qpop¨ç¼Æ
 }
 
 void main(){
-	Stack stack1, stack2; //©w¸q2­Óª«¥ó
-	stack1.init(); stack2.init(); //ªì©l¤Æ
+	Stack stack1, stack2; //å®šç¾©2å€‹ç‰©ä»¶
+	stack1.init(); stack2.init(); //åˆå§‹åŒ–
 	for (int i=1; i < 2 * N; i=i+2){   
 			stack1.push(i);
-	} //±NN­Ó©_¼Æ§Ç¦C©ñ¸mstack1
+	} //å°‡Nå€‹å¥‡æ•¸åºåˆ—æ”¾ç½®stack1
 	int s;
 	for (int j = 0; j < M; j++){
 		int top = stack1.pop();
@@ -37,16 +32,16 @@ void main(){
 			stack2.push(top);
 			s++;
 		}
-	} //±qstack1¤W­±®³¥XM­Ó¸ê®Æ¡A±NFactorªº­¿¼Æªº¸ê®Æ©ñ¤Jstack2
+	} //å¾stack1ä¸Šé¢æ‹¿å‡ºMå€‹è³‡æ–™ï¼Œå°‡Factorçš„å€æ•¸çš„è³‡æ–™æ”¾å…¥stack2
 	int k;
 	while (k < N-M){
 			cout << stack1.pop() << " ";
 			k++;
-	} //¦L¥Xstack1
+	} //å°å‡ºstack1
 	cout << endl;
 	while (s >0){
 		cout << stack2.pop() << " ";
 		s--;
-	} //¦L¥Xstack2
+	} //å°å‡ºstack2
 	system("pause");
 }
