@@ -1,4 +1,4 @@
-'''
+'
 class Stack{
 public:
 	void init(){ nums = 0; }; //初始化成員函式
@@ -45,4 +45,4 @@ void main(){
 	} //印出stack2
 	system("pause");
 }
-'''
+'
